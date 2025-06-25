@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int count = 0;
+    char ch = 'a';
+    while (count < 3) {
+        printf("Letter: %c\n", ch + count);
+        count++;
+    }
+    return 0;
+}

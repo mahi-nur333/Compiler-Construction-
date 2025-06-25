@@ -1,0 +1,41 @@
+#include -> PREPROCESSOR (include)
+<stdio.h> -> HEADER
+int -> KEYWORD (int)
+main -> IDENTIFIER
+( -> PAREN (open)
+) -> PAREN (close)
+{ -> BRACE (open)
+int -> KEYWORD (int)
+count -> IDENTIFIER
+= -> OPERATOR (assignment)
+0 -> INTEGER CONSTANT
+; -> SEMICOLON
+char -> KEYWORD (char)
+ch -> IDENTIFIER
+= -> OPERATOR (assignment)
+'a' -> CHAR LITERAL
+; -> SEMICOLON
+while -> LOOP (while)
+( -> PAREN (open)
+count -> IDENTIFIER
+< -> OPERATOR (less than)
+3 -> INTEGER CONSTANT
+) -> PAREN (close)
+{ -> BRACE (open)
+printf -> FUNCTION (printf)
+( -> PAREN (open)
+"Letter: %c\n" -> STRING LITERAL
+, -> COMMA
+ch -> IDENTIFIER
++ -> OPERATOR (plus)
+count -> IDENTIFIER
+) -> PAREN (close)
+; -> SEMICOLON
+count -> IDENTIFIER
+++ -> OPERATOR (increment)
+; -> SEMICOLON
+} -> BRACE (close)
+return -> KEYWORD (return)
+0 -> INTEGER CONSTANT
+; -> SEMICOLON
+} -> BRACE (close)

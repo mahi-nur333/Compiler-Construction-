@@ -1,0 +1,48 @@
+#include -> PREPROCESSOR (include)
+<stdio.h> -> HEADER
+void -> KEYWORD (void)
+displayDetails -> IDENTIFIER
+( -> PAREN (open)
+char -> KEYWORD (char)
+initial -> IDENTIFIER
+, -> COMMA
+float -> KEYWORD (float)
+score -> IDENTIFIER
+) -> PAREN (close)
+{ -> BRACE (open)
+printf -> FUNCTION (printf)
+( -> PAREN (open)
+"Initial: %c, Score: %.2f\n" -> STRING LITERAL
+, -> COMMA
+initial -> IDENTIFIER
+, -> COMMA
+score -> IDENTIFIER
+) -> PAREN (close)
+; -> SEMICOLON
+} -> BRACE (close)
+int -> KEYWORD (int)
+main -> IDENTIFIER
+( -> PAREN (open)
+) -> PAREN (close)
+{ -> BRACE (open)
+char -> KEYWORD (char)
+nameInitial -> IDENTIFIER
+= -> OPERATOR (assignment)
+'R' -> CHAR LITERAL
+; -> SEMICOLON
+float -> KEYWORD (float)
+testScore -> IDENTIFIER
+= -> OPERATOR (assignment)
+88.75 -> FLOAT CONSTANT
+; -> SEMICOLON
+displayDetails -> IDENTIFIER
+( -> PAREN (open)
+nameInitial -> IDENTIFIER
+, -> COMMA
+testScore -> IDENTIFIER
+) -> PAREN (close)
+; -> SEMICOLON
+return -> KEYWORD (return)
+0 -> INTEGER CONSTANT
+; -> SEMICOLON
+} -> BRACE (close)

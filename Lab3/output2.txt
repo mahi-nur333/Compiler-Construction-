@@ -1,0 +1,55 @@
+#include -> PREPROCESSOR (include)
+<stdio.h> -> HEADER
+int -> KEYWORD (int)
+main -> IDENTIFIER
+( -> PAREN (open)
+) -> PAREN (close)
+{ -> BRACE (open)
+char -> KEYWORD (char)
+grade -> IDENTIFIER
+= -> OPERATOR (assignment)
+'B' -> CHAR LITERAL
+; -> SEMICOLON
+if -> CONDITIONAL (if)
+( -> PAREN (open)
+grade -> IDENTIFIER
+== -> OPERATOR (equal)
+'A' -> CHAR LITERAL
+) -> PAREN (close)
+{ -> BRACE (open)
+printf -> FUNCTION (printf)
+( -> PAREN (open)
+"Excellent!\n" -> STRING LITERAL
+) -> PAREN (close)
+; -> SEMICOLON
+} -> BRACE (close)
+else -> CONDITIONAL (else)
+if -> CONDITIONAL (if)
+( -> PAREN (open)
+grade -> IDENTIFIER
+== -> OPERATOR (equal)
+'B' -> CHAR LITERAL
+|| -> LOGICAL OR
+grade -> IDENTIFIER
+== -> OPERATOR (equal)
+'C' -> CHAR LITERAL
+) -> PAREN (close)
+{ -> BRACE (open)
+printf -> FUNCTION (printf)
+( -> PAREN (open)
+"Well done!\n" -> STRING LITERAL
+) -> PAREN (close)
+; -> SEMICOLON
+} -> BRACE (close)
+else -> CONDITIONAL (else)
+{ -> BRACE (open)
+printf -> FUNCTION (printf)
+( -> PAREN (open)
+"You passed\n" -> STRING LITERAL
+) -> PAREN (close)
+; -> SEMICOLON
+} -> BRACE (close)
+return -> KEYWORD (return)
+0 -> INTEGER CONSTANT
+; -> SEMICOLON
+} -> BRACE (close)

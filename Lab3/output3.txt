@@ -1,0 +1,43 @@
+#include -> PREPROCESSOR (include)
+<stdio.h> -> HEADER
+int -> KEYWORD (int)
+main -> IDENTIFIER
+( -> PAREN (open)
+) -> PAREN (close)
+{ -> BRACE (open)
+double -> KEYWORD (double)
+result -> IDENTIFIER
+= -> OPERATOR (assignment)
+3.1e-5 -> FLOAT CONSTANT
+; -> SEMICOLON
+for -> LOOP (for)
+( -> PAREN (open)
+int -> KEYWORD (int)
+i -> IDENTIFIER
+= -> OPERATOR (assignment)
+0 -> INTEGER CONSTANT
+; -> SEMICOLON
+i -> IDENTIFIER
+< -> OPERATOR (less than)
+5 -> INTEGER CONSTANT
+; -> SEMICOLON
+i -> IDENTIFIER
+++ -> OPERATOR (increment)
+) -> PAREN (close)
+{ -> BRACE (open)
+printf -> FUNCTION (printf)
+( -> PAREN (open)
+"Step %d: %e\n" -> STRING LITERAL
+, -> COMMA
+i -> IDENTIFIER
+, -> COMMA
+result -> IDENTIFIER
+* -> OPERATOR (multiplication)
+i -> IDENTIFIER
+) -> PAREN (close)
+; -> SEMICOLON
+} -> BRACE (close)
+return -> KEYWORD (return)
+0 -> INTEGER CONSTANT
+; -> SEMICOLON
+} -> BRACE (close)
