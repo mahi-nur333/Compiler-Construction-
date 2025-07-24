@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+
+void greet(char* name) {
+    printf("Hello, %s!\n", name);
+}
+
+int main() {
+    char userName[20] = "Mahin";
+    greet(userName);
+    return 0;
+}

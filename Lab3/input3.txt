@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    double result = 3.1e-5;
+    for (int i = 0; i < 5; i++) {
+        printf("Step %d: %e\n", i, result * i);
+    }
+    return 0;
+}

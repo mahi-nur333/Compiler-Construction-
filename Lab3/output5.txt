@@ -1,0 +1,46 @@
+#include -> PREPROCESSOR (include)
+<stdio.h> -> HEADER
+#include -> PREPROCESSOR (include)
+< -> OPERATOR (less than)
+string -> IDENTIFIER
+. -> UNKNOWN
+h -> IDENTIFIER
+> -> OPERATOR (greater than)
+void -> KEYWORD (void)
+greet -> IDENTIFIER
+( -> PAREN (open)
+char -> KEYWORD (char)
+* -> OPERATOR (multiplication)
+name -> IDENTIFIER
+) -> PAREN (close)
+{ -> BRACE (open)
+printf -> FUNCTION (printf)
+( -> PAREN (open)
+"Hello, %s!\n" -> STRING LITERAL
+, -> COMMA
+name -> IDENTIFIER
+) -> PAREN (close)
+; -> SEMICOLON
+} -> BRACE (close)
+int -> KEYWORD (int)
+main -> IDENTIFIER
+( -> PAREN (open)
+) -> PAREN (close)
+{ -> BRACE (open)
+char -> KEYWORD (char)
+userName -> IDENTIFIER
+[ -> UNKNOWN
+20 -> INTEGER CONSTANT
+] -> UNKNOWN
+= -> OPERATOR (assignment)
+"Mahin" -> STRING LITERAL
+; -> SEMICOLON
+greet -> IDENTIFIER
+( -> PAREN (open)
+userName -> IDENTIFIER
+) -> PAREN (close)
+; -> SEMICOLON
+return -> KEYWORD (return)
+0 -> INTEGER CONSTANT
+; -> SEMICOLON
+} -> BRACE (close)

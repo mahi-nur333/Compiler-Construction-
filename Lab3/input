@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char grade = 'B';
+    if (grade == 'A') {
+        printf("Excellent!\n");
+    } else if (grade == 'B' || grade == 'C') {
+        printf("Well done!\n");
+    } else {
+        printf("You passed\n");
+    }
+    return 0;
+}
