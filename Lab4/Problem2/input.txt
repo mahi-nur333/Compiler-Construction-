@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int sum = 0;
+    int count;
+
+    // Count from 100 down to 91 (10 numbers)
+    for (count = 100; count >= 91; count--) {
+        sum = sum + 1;  // Simply counting iterations
+    }
+
+    printf("Total: %d\n", sum);
+    return 0;
+}

@@ -1,0 +1,7 @@
+int age;
+float height = 10.5;
+c = 12;
+
+if (age > height){
+    age = height + 10;
+}
