@@ -1,0 +1,7 @@
+In line no 3, Inserting a with type 1 in symbol table.
+In line no 4, Inserting b with type 1 in symbol table.
+In line no 5, Inserting c with type 1 in symbol table.
+In line no 13, Inserting d with type 1 in symbol table.
+In line no 18, Inserting e with type 2 in symbol table.
+In line no 23, Inserting f with type 3 in symbol table.
+Parsing finished!
