@@ -1,0 +1,4 @@
+In line no 13, Function call 'sumArray': argument count mismatch.
+In line no 14, Function call 'sumArray': argument count mismatch.
+Line 16: Type mismatch - assigning double to char
+Line 17: Type mismatch - comparing char with string
